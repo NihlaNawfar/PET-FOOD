@@ -1,0 +1,71 @@
+/* Footer container */
+.footer-color {
+  background-color: #85a46a; /* Dark background color */
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer-position {
+  padding: 20px 0;
+}
+
+/* Footer logo */
+.logo-footer {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #f1c40f; /* Highlight color (dark yellow) */
+}
+
+/* General text styling */
+.footer-color p,
+.footer-color a {
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: #d1d1d1; /* Light gray text */
+  text-decoration: none;
+}
+
+.footer-color a:hover {
+  color: #f39c12; /* Hover color (orange) */
+  text-decoration: underline;
+}
+
+/* Column heading styles */
+.footer-color h6 {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #f39c12; /* Underline headings */
+  padding-bottom: 10px;
+}
+
+/* Payment section */
+.payment img {
+  max-width: 120px; /* Adjust image width */
+  height: auto;
+}
+
+.payment p {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+  .payment {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .payment img {
+    margin-top: 10px;
+  }
+
+  .footer-color h6 {
+    text-align: center;
+  }
+
+  .footer-color p,
+  .footer-color a {
+    text-align: center;
+  }
+}

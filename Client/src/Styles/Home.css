@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.categories span,
+.products span,
+.services span,
+.brands span,
+.footer-position span,
+.details h4 {
+  color: #D8B26C;
+}
+
+.brands img {
+  max-width: 100%;
+}
+
+.footer-color {
+  background-color: #989F7F;
+}
+
+.logo {
+  font-family: "Carter One", cursive;
+  font-size: xx-large;
+}
+
+.contact-hover p {
+  transition: color 0.1s linear;
+}
+
+.contact-hover p:hover {
+  color: #4F4840;
+}
+
+.nav-color {
+  background-color: #4F4840;
+  height: 95px;
+}
+
+.details img {
+  width: 500px;
+}
+
+.det-button {
+  width: 230px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.quantity {
+  width: 120px;
+  height: 50px;
+}
+
+.payment-success {
+  background-color: rgb(124, 168, 14);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-success img {
+  padding-top: 100px;
+}
+
+.services {
+  padding-top: 110px;
+}
+
+.services h2 {
+  font-size: x-large;
+  font-weight: 550;
+}
+
+.services-list {
+  width: 300px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form-container form {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.pointer span {
+  cursor: pointer;
+}
+
+.footer-color {
+  background-color: #1B2414;
+}
+
+.logo-footer {
+  font-family: "Carter One", cursive;
+  font-size: xx-large;
+}
+
+.contact-hover p {
+  transition: color 0.1s linear;
+}
+
+.contact-hover p:hover {
+  color: #D8B26C;
+}
+
+@media (max-width: 576px) {
+  .payment img {
+    width: 100%;
+  }
+
+  .contact-hover {
+    width: 130px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .details img {
+    width: 400px;
+  }
+
+  .details h1 {
+    font-size: xx-large;
+  }
+
+  .det-button {
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+  }
+}
+@media (max-width: 992px) {
+  .nav-color {
+    background-color: #7e942d;
+    height: 12vh;
+    transition: 0.3s;
+  }
+
+  .details img {
+    width: 350px;
+  }
+
+  .details h1 {
+    font-size: x-large;
+  }
+
+  .details p {
+    font-size: small;
+  }
+
+  .quantity {
+    width: 90px;
+  }
+
+  .det-button {
+    width: 120px;
+    height: 50px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .best-seller {
+    margin: 0 !important;
+  }
+
+  .best-seller-image {
+    width: 190px !important;
+  }
+
+  .best-seller-name {
+    font-weight: 500 !important;
+    font-size: medium;
+  }
+}
