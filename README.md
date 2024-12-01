@@ -1,6 +1,6 @@
-# Inferno Online Pet -food
+# Inferno Online Pet food
 
-An Ecommerce Online Pet -food Website
+An Ecommerce Online Pet food Website
 
 # Instructions
 
