@@ -1,6 +1,6 @@
-# Inferno Online Clothing Store
+# Inferno Online Pet -food
 
-An Ecommerce Clothing Store Website
+An Ecommerce Online Pet -food Website
 
 # Instructions
 
