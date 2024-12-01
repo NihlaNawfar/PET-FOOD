@@ -8,7 +8,7 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
 
 1. Clone the repository using this command.
    ```python
-   git clone https://github.com/yousaf530/Ecommerce-Clothing-Website.git
+   git clone https://github.com/yousaf530/Ecommerce-Pet food-Website.git
    ```
 2. Copy and Paste the cloned folder in the **htdocs** folder in XAMPP folder on your machine.
 3. Start Apache and MySQL from XAMPP control panel.
@@ -17,7 +17,7 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
 6. You might need to provide the root user password in the `functions.php` and `db.php` in `mysqli_connect()` if you have already mySQL installed on your machine.
 7. Type in the browser url bar
    ```python 
-   localhost/Ecommerce-Clothing-Website
+   localhost/Ecommerce-Pet food-Website
    ```
    Congrats! The Website is live on your machine.
 
